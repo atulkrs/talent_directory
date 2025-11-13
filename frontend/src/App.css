@@ -1,0 +1,14 @@
+/* Hide scrollbar but allow scrolling */
+.custom-scroll::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: remove scrollbar track */
+}
+
+.custom-scroll {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  display: none;
+}
