@@ -16,7 +16,7 @@ export default function TalentList() {
         <h2 className="text-lg font-semibold text-gray-700">All Talents</h2>
       </div>
 
-      {/* Scrollable Talent Cards (hidden scrollbar) */}
+     
       <div className="flex-1 overflow-y-auto px-4 py-3 space-y-4 scroll-smooth custom-scroll">
         {data.map((talent) => (
           <div
